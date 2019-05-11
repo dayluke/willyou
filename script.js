@@ -2,7 +2,7 @@ var pos;
 var img;
 var container;
 var index = 0;
-var imgURL = "https://cdn.pixabay.com/photo/2017/09/23/16/33/pixel-heart-2779422_960_720.png"
+var imgURL = "http://pixelartmaker.com/art/8bf0ec0c7f85694.png"
 var heartCount = 10;
 var answerElement;
 var timeBetweenHearts = 1150;
