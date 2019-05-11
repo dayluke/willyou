@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #333;
+}
+
+.btn {
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#clickme {
+  height: 1000px;
+}
+
+#firstBtn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 70px;
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+}
+
+#firstBtn:hover {
+  color: red;
+  background-color: white;
+}
+
+#resetBtn {
+  margin: 10px;
+  color: black;
+  font-size: 0.5rem;
+  height: 30px;
+  width: 60px;
+}
+
+#resetBtn:hover {
+  color: white;
+  background-color: black;
+}
+
+#answer {
+  height: 1000px;
+  background-color: pink;
+}
+
+#question {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  text-align: center;
+  padding: 400px 0 150px 0;
+}
+
+#reply {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 150px;
+}
+
+#yes {
+  height: 70px;
+  width: 150px;
+  background-color: #0C0;
+}
+
+#yes:hover {
+  color: #0C0;
+  background-color: white;
+}
+
+#no {
+  height: 70px;
+  width: 150px;
+  background-color: red;
+}
+
+#no:hover {
+  color: red;
+  background-color: white;
+}
+
+#response {
+  height: 1000px;
+  background-color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  content: '';
+  line-height: 1000px; /* Vertically centers text*/
+}
