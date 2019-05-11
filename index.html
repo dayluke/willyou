@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Will you...?</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Promposal!">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Luke Day">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+
+</head>
+<body>
+
+  <div id="clickme">
+    <button id="resetBtn" class="btn" onclick="reset()">Reset</button>
+    <button id="firstBtn" class="btn" onclick="btnClicked(this)">Click Me</button>
+    <div id="heartContainer"></div>
+  </div>
+
+  <div id="answer">
+    <div id="question">🌹 Will you go to prom with me? 🌹</div>
+    <div id="reply">
+      <button id="yes" class="btn" onclick="reply(true)">Yes</button>
+      <button id="no" class="btn" onclick="reply(false)">No</button>
+    </div>
+  </div>
+
+  <div id="response">
+    <div>Scroll back up</div>
+  </div>
+  <!-- Uncomment overflow in body when finished -->
+  
+</body>
+</html>
